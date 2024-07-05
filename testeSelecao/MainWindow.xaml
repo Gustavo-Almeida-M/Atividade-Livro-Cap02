@@ -1,0 +1,20 @@
+﻿<Window x:Class="testeSelecao.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testeSelecao"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <RadioButton x:Name="radio01" Content="01" HorizontalAlignment="Left" Margin="50,30,0,0" VerticalAlignment="Top" Checked="radio01_Checked"/>
+        <RadioButton x:Name="radio02" Content="02" HorizontalAlignment="Left" Margin="50,60,0,0" VerticalAlignment="Top" Checked="radio02_Checked"/>
+        <RadioButton x:Name="radio03" Content="03" HorizontalAlignment="Left" Margin="50,90,0,0" VerticalAlignment="Top" Checked="radio03_Checked"/>
+        <RadioButton x:Name="radio04" Content="04" HorizontalAlignment="Left" Margin="150,30,0,0" VerticalAlignment="Top" Checked="radio04_Checked"/>
+        <RadioButton x:Name="radio05" Content="05" HorizontalAlignment="Left" Margin="150,60,0,0" VerticalAlignment="Top" Checked="radio05_Checked"/>
+        <RadioButton x:Name="radio06" Content="06" HorizontalAlignment="Left" Margin="150,90,0,0" VerticalAlignment="Top" Checked="radio06_Checked"/>
+        <TextBox x:Name="inputTextBox" HorizontalAlignment="Left" Margin="50,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="inputTextBox_TextChanged"/>
+        <TextBlock x:Name="blocoEscrita" HorizontalAlignment="Left" Margin="341,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="313" Height="97" FontSize="48"/>
+
+    </Grid>
+</Window>
